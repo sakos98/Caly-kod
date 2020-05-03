@@ -12,4 +12,6 @@ public class Car {
        this.mileage = mileage;
    }
     public Double value = 1000.0;
+
+
 }

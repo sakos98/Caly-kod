@@ -21,11 +21,17 @@ public class Main {
 
         System.out.println(me.pet.name);
 
-        me.car = new Car("Arosa",
+
+        me.setCar(new Car("Arosa", "Seat", (double) 250000));
+        me.getCar("Arosa",
                 "Seat",
                 (double) 250000);
-        me.setCar(new Car("Arosa", "Seat", (double) 250000));
-        System.out.println(me.car.producer + " ");
+        System.out.println(me.getCar().producer + " ");
+        System.out.println(new Car("Arosa", "Seat",(double)250000));
         System.out.println("I have " + me.getSalary());
+
+        System.out.println("information on the requirements received and signing of the annex to the contract is done");
+        System.out.println("information about sending data to the accounting system is ready");
+        System.out.println("information on sending updated data to ZUS and Tax Office is included");
     }
 }
