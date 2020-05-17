@@ -23,9 +23,7 @@ public class Main {
 
 
         me.setCar(new Car("Arosa", "Seat", (double) 250000));
-        me.getCar("Arosa",
-                "Seat",
-                (double) 250000);
+        me.getCar();
         System.out.println(me.getCar().producer + " ");
         System.out.println(new Car("Arosa", "Seat",(double)250000));
         System.out.println("I have " + me.getSalary());

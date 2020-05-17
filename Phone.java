@@ -1,4 +1,7 @@
 package com.company;
 
-public class Phone {
+public class Phone extends Device{
+    public Phone() {
+        super(model, producer);
+    }
 }

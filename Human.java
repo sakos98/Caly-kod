@@ -26,7 +26,7 @@ public class Human {
         }
     }
 
-    public Car getCar(String arosa, String seat, double v) {
+    public Car getCar() {
         return car;
     }
     public void setCar(Car car){
