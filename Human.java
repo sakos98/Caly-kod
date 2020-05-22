@@ -7,7 +7,7 @@ public class Human {
     Phone phone;
     Animal pet;
     private Car car;
-
+    Double cash;
 
     private double salary;
 
@@ -30,14 +30,17 @@ public class Human {
         return car;
     }
     public void setCar(Car car){
-        if (salary<car.value){
+        if (salary>car.value){
             System.out.println("Wow, you can bay car for cash");
+            this.car = car;
         } else if (salary * 12 < car.value){
             System.out.println("So close man to buy a car");
+            this.car = car;
         } else {
             System.out.println("Sorry this car is not for you");
         }
     }
+
     public void setsalary(int salary){
         if (salary > 0){
             System.out.println("It's okey");
@@ -45,5 +48,6 @@ public class Human {
             System.out.println("impossible");
         }
     }
+
 }
 

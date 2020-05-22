@@ -6,12 +6,8 @@ public abstract class Device {
     public  Double mileage = null;
     public Double yearOfProduction = null;
 
-
-
-    protected Device() {
+    public Device(String model, String producer) {
         this.model = model;
         this.producer = producer;
-        this.mileage = mileage;
-        this.yearOfProduction = yearOfProduction;
     }
 }
