@@ -1,5 +1,8 @@
 package com.company;
 
+import java.util.ArrayList;
+
+
 public class Car extends  Device{
    public  String model;
    public  String producer;
@@ -18,5 +21,6 @@ public class Car extends  Device{
     public String toString(){
        return  "Car" + this.model + "" + this.producer;
    }
+
 
 }

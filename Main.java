@@ -1,5 +1,5 @@
 package com.company;
-
+import com.company.Phone;
 import java.util.Arrays;
 
 public class Main {
@@ -20,6 +20,8 @@ public class Main {
         me.pet.feed();
         me.setSalary(10000);
 
+
+
         me.farm[0] = new FarmAnimal("pig", 120.0, 5);
         me.farm[1] = new FarmAnimal("cat", 5.0, 1);
         me.farm[2] = new FarmAnimal("donkey", 100.0, 4);
@@ -35,10 +37,18 @@ public class Main {
         me.garage[2] = new Car("720S", "MCLAREN", 3.000, 2020);
         Arrays.sort(me.garage);
         System.out.println(Arrays.toString(me.garage));
-        System.out.println();
-        System.out.println();
 
         System.out.println(me.pet.name);
+
+
+        me.setSalary(10000);
+        me.phone = new Phone("Xiaomi", "mi9se", 2017, me);
+
+
+        Application ali = new Application("minecraft", 1.15, 0.0);
+        Application ali2 = new Application("csgo", 1.9, 5.0);
+        Application ali3 = new Application("fortnit e", 3.4, 1.0);
+        Application ali4 = new Application("browstar", 1.4, 3.0);
 
 
         me.setCar(new Car("Arosa", "Seat", (double) 250000, 1998));

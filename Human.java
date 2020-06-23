@@ -72,7 +72,6 @@ public class Human {
 
     public void sumValue() {
         double value = 0;
-
         }
 }
 
