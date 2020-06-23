@@ -1,10 +1,10 @@
 package com.company;
 
 public class Car extends  Device{
-   public final String model;
-   public final String producer;
-   public final Double mileage;
-   public final Integer yearOfProduction;
+   public  String model;
+   public  String producer;
+   public  Double mileage;
+   public  Integer yearOfProduction;
 
    public Car(String model, String producer, Double mileage, Integer yearOfProduction){
        super(model, producer);
